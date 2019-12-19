@@ -19,8 +19,12 @@
 
 ### How to run
 
+#### ConvLSTM model
 - To run ConvLSTM model on the datasets, run the file run.py in ConvLSTM folder. You can select and change your desired architectures and training parameters in run.py file.
+#### LSTM and Bidirectional LSTM model
 - To run LSTM model on the datasets, run the file crime_vgg16_lstm_hi_dim_train.py in LSTM/demo folder. This will run VGG+VGGLSTM model on ucfcrimes dataset. 
 - To run BidirectionalLSTM model on the datasets, run the file crime_vgg16_bilstm_hi_dim_train.py in LSTM/demo folder. This will run VGG+VGGBiLSTM model on ucfcrimes dataset. 
 - To run LSTM model on the datasets with resnet, run the file crime_resnet50_lstm_hi_dim_train in LSTM/demo folder. This will run Resnet50+LSTM model on ucfcrimes dataset. 
+#### Object detection
+- To run handgun object_detection ipynb file, follow the cell-by-cell instructions and run the ipynb file after setting up data as mentioned in the notebook. It is preferable to run it on Google Colab.
 
